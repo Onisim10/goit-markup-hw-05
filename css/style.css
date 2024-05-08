@@ -441,9 +441,12 @@ position: relative;
   flex-wrap: wrap;
 
 }
-.test {
-  position: absolute;
-    overflow: hidden;
+.img-list {
+   
+}
+.img-over {
+ position: relative;
+ overflow: hidden;
  
 }
  .overlay {
@@ -471,7 +474,7 @@ position: relative;
     letter-spacing: 0.03em;
     text-align: left;
  }
- .test:hover .overlay {
+ .img-over:hover .overlay {
    transform: translatey(0); 
  }
 
